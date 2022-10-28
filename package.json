@@ -12,9 +12,8 @@
   "scripts": {
     "ng": "ng",
     "conventional-changelog": "conventional-changelog",
-    "prestart": "npm i --force",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npx ng build --configuration production --aot",
     "build:prod": "npm run build -- --configuration production --aot",
     "test": "ng test",
     "test:coverage": "rimraf coverage && npm run test -- --code-coverage",
