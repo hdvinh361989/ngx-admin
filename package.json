@@ -9,6 +9,10 @@
   "bugs": {
     "url": "https://github.com/akveo/ngx-admin/issues"
   },
+  "engines": {
+    "node": "18.3.0",
+    "npm": "8.11.0"
+  },
   "scripts": {
     "ng": "ng",
     "conventional-changelog": "conventional-changelog",
