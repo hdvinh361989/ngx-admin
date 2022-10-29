@@ -10,8 +10,7 @@
     "url": "https://github.com/akveo/ngx-admin/issues"
   },
   "engines": {
-    "node": "18.3.0",
-    "npm": "8.11.0"
+    "node": "14.x"
   },
   "scripts": {
     "ng": "ng",
