@@ -16,7 +16,7 @@
     "ng": "ng",
     "conventional-changelog": "conventional-changelog",
     "start": "node server.js",
-    "prebbuild:prod": "npm install",
+    "prebbuild": "npm install",
     "build": "npm run build:prod",
     "build:prod": "ng build --configuration production --aot",
     "test": "ng test",
